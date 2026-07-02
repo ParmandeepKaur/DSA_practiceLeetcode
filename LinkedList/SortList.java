@@ -1,6 +1,5 @@
 class Solution {
     public ListNode sortList(ListNode head) {
-        // Base case: 0 or 1 element is already sorted
         if (head == null || head.next == null) {
             return head;
         }
